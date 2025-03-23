@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Lab_21mar_StringPalindrome {
 
-    public static void main(String[] args) {
+    public static void main(String neha[]) {
 
         Scanner s = new Scanner(System.in);
         System.out.println("Enter the name");
