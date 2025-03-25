@@ -11,6 +11,9 @@ public class Lab131_arithmaticoperation {
         if(Scanner.hasNextInt()){
              a =s.nextInt();
             b=s.nextInt();
+        }else{
+            System.out.println("Enter int values only");
+            System.exit(0);
         }
         int subres = sub(a,b);
         System.out.println(subres);

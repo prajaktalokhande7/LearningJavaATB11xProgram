@@ -15,6 +15,16 @@ public class Lab_14mar_triangleClassifer {
         System.out.println("Enter the side 3 value");
         int s3 = s.nextInt();
 
+        if(s1 <=0 || s2 <=0 ||s3<=0){
+            System.out.println("not a triangle");
+            System.exit(0);
+        }
+
+        if(s1+s2 <=s3 || s2+s3<=s1 || s1+s3<=s2){
+            System.out.println("this is not a triangle");
+            System.exit(0);
+        }
+
         if(s1==s2 && s1==s3){
             System.out.println("Equilateral triangle");
         } else if (s1==s2 && s1!=s3) {
@@ -24,6 +34,6 @@ public class Lab_14mar_triangleClassifer {
             System.out.println("scalene triangle");
 
         }
-
+        s.close();
     }
 }
