@@ -8,7 +8,7 @@ public class Lab131_arithmaticoperation {
         Scanner s = new Scanner(System.in);
         int a=0;
         int b=0;
-        if(Scanner.hasNextInt()){
+        if(s.hasNextInt()){
              a =s.nextInt();
             b=s.nextInt();
         }else{
