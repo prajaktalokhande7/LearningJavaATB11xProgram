@@ -25,6 +25,7 @@ public class Lab130_withparawithoutreturn {
     // with para without return type
 
     static void type3(String name, int age, double sal){
+
         System.out.println("name is"+name+""+"age"+age+"sal"+sal);
     }
 
